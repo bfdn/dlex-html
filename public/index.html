@@ -1,0 +1,356 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dlex</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./css/app.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!--Header-->
+    <header class="bg-[url('../img/header-bg-1.png')] bg-no-repeat bg-left-top bg-cover max-h-[1040px]">
+        <div class="container px-3 sm:px-0 py-2">
+            <div class="flex justify-between items-center">
+                <!--Logo-->
+                <a hrefa hrefa href="#">
+                    <img src="img/logo.png" class="h-10" alt="">
+                </a>
+                <!--Mobile Menu-->
+                <div class="block md:hidden menuOpen">
+                    <div class="space-y-1 cursor-pointer">
+                        <div class="bg-white w-8 h-1 rounded-full"></div>
+                        <div class="bg-white w-8 h-1 rounded-full"></div>
+                        <div class="bg-white w-8 h-1 rounded-full"></div>
+                        <span class="sr-only">Menü Aç</span>
+                    </div>
+                </div>
+                <!--Navigation-->
+                <nav class="absolute top-12 left-0 bg-black w-full py-2 hidden md:flex md:relative md:top-0 md:bg-transparent md:justify-end md:gap-x-4 lg:gap-x-20 items-center"
+                    id="menu">
+                    <div
+                        class="flex flex-col md:flex-row text-white md:text-new-grayscale-900/70 divide-y md:divide-y-0">
+                        <a href="#" class="text-sm px-3 py-2">Product</a>
+                        <a href="#" class="text-sm px-3 py-2">Features</a>
+                        <a href="#" class="text-sm px-3 py-2">Marketplace</a>
+                        <a href="#" class="text-sm px-3 py-2">Company</a>
+                    </div>
+                    <div
+                        class="flex px-3 gap-4 flex-col md:flex-row border-t border-gray-200 text-center py-4 md:py-0 md:border-0">
+                        <a href="#"
+                            class="text-sm font-medium py-2 px-6 bg-new-indigo-500 text-white rounded-md max-w-[165px]">Watch
+                            Demo</a>
+                        <a href="#"
+                            class="text-sm font-medium py-2 px-6 border-white md:border-new-grayscale-900/10 text-white md:text-new-grayscale-900 border rounded-md max-w-[106px]">Sign
+                            Up</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="text-center flex flex-col items-center gap-y-4 mt-24">
+                <h4 class="text-new-grayscale-900 text-6xl">Build Better Products</h4>
+                <p class="text-xl md:w-1/2">Powerful, self-serve product analytics to help you convert, engage, and
+                    retain
+                    more
+                    users.</p>
+                <div class="flex gap-x-4 justify-center">
+                    <a href="#"
+                        class="text-sm font-medium py-2 px-6 bg-new-indigo-500 text-white rounded-md max-w-[165px]">Watch
+                        Demo</a>
+                    <a href="#"
+                        class="text-sm font-medium py-2 px-6 border-new-grayscale-900/10 text-new-grayscale-900 border rounded-md max-w-[106px]">Sign
+                        Up</a>
+                </div>
+                <img src="img/hero.png" class="w-full h-full mt-24" alt="">
+            </div>
+
+        </div>
+    </header>
+
+
+    <!--Services-->
+    <section class="mt-80">
+        <div class="container pt-[216px] pb-24 px-3 sm:px-0">
+            <h4 class="text-new-indigo-500 font-semibold text-sm uppercase">Why dlex</h4>
+            <h3 class="md:w-1/2">Creativity is nothing but the way to solve new problems.</h3>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10">
+                <div class="px-6 py-14 flex flex-col gap-y-4 shadow-lg">
+                    <img src="img/icon-1.svg" class="w-12 h-12" alt="">
+                    <h6>UI Design</h6>
+                    <p class="text-sm text-new-grayscale-900/50">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                        consequat.
+                    </p>
+                </div>
+                <div class="px-6 py-14 flex flex-col gap-y-4 shadow-lg">
+                    <img src="img/icon-2.svg" class="w-12 h-12" alt="">
+                    <h6>UX & Research</h6>
+                    <p class="text-sm text-new-grayscale-900/50">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                        consequat.
+                    </p>
+                </div>
+                <div class="px-6 py-14 flex flex-col gap-y-4 shadow-lg">
+                    <img src="img/icon-3.svg" class="w-12 h-12" alt="">
+                    <h6>Fast delivery</h6>
+                    <p class="text-sm text-new-grayscale-900/50">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                        consequat.
+                    </p>
+                </div>
+                <div class="px-6 py-14 flex flex-col gap-y-4 shadow-lg">
+                    <img src="img/icon-4.svg" class="w-12 h-12" alt="">
+                    <h6>Customer support</h6>
+                    <p class="text-sm text-new-grayscale-900/50">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                        consequat.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Blog-->
+    <section>
+        <div class="container py-24 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 px-3 sm:px-0 gap-6">
+            <h4 class="text-new-indigo-500 font-semibold text-sm uppercase  text-center sm:col-span-2 md:col-span-3">
+                Why dlex</h4>
+            <h1 class="text-center sm:col-span-2 md:col-span-3">From our blog</h1>
+            <p class="text-lg text-new-grayscale-900/50 sm:w-1/2 mx-auto text-center mb-6 sm:col-span-2 md:col-span-3">
+                Creativity is a highfalutin word for the work I have to do between now and Tuesday.
+            </p>
+
+            <div class="shadow-lg rounded-xl">
+                <img src="img/blog-1.png" class="w-full" alt="">
+                <div class="px-6">
+                    <div class="text-new-purple-500 font-semibold text-sm uppercase mt-8">Article</div>
+                    <h5 class="text-new-grayscale-900 mt-2">Guide for designing better mobile apps typography</h5>
+                    <p class="text-new-grayscale-900/50 mt-6">In this article, I won’t talk about the general concepts
+                        of
+                        typography, which can be used both in
+                        print...</p>
+                    <div class="grid grid-flow-col auto-cols-max gap-x-4 mt-20 mb-8">
+                        <img src="img/author-1.png" class="row-span-2" alt="">
+                        <div class="text-new-grayscale-900 font-medium text-sm">Kristin Watson</div>
+                        <p class="text-new-grayscale-900/50 text-xs">Jun 27, 2020 · 6 min read</p>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow-lg rounded-md">
+                <img src="img/blog-2.png" class="w-full" alt="">
+                <div class="px-6">
+                    <div class="text-new-yellow-900 font-semibold text-sm uppercase mt-8">Video</div>
+                    <h5 class="text-new-grayscale-900 mt-2">New Dashboard features to save you time</h5>
+                    <p class="text-new-grayscale-900/50 mt-6">Dashboard is the hub for millions of businesses to take
+                        action. We’ve launched dozens of new features in the Dashboard...</p>
+                    <div class="grid grid-flow-col auto-cols-max gap-x-4 mt-20 mb-8">
+                        <img src="img/author-1.png" class="row-span-2" alt="">
+                        <div class="text-new-grayscale-900 font-medium text-sm">Kristin Watson</div>
+                        <p class="text-new-grayscale-900/50 text-xs">Jun 27, 2020 · 6 min read</p>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow-lg rounded-md">
+                <img src="img/blog-3.png" class="w-full" alt="">
+                <div class="px-6">
+                    <div class="text-new-cyan-900 font-semibold text-sm uppercase mt-8">Case study</div>
+                    <h5 class="text-new-grayscale-900 mt-2">Noom sees an 8% increase in authorization rates with Dlex
+                    </h5>
+                    <p class="text-new-grayscale-900/50 mt-6">The health platform boosted acceptance rates and expanded
+                        global coverage by switching to Dlex</p>
+                    <div class="grid grid-flow-col auto-cols-max gap-x-4 mt-20 mb-8">
+                        <img src="img/author-1.png" class="row-span-2" alt="">
+                        <div class="text-new-grayscale-900 font-medium text-sm">Kristin Watson</div>
+                        <p class="text-new-grayscale-900/50 text-xs">Jun 27, 2020 · 6 min read</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Customer-->
+    <section>
+        <div class="container pt-24 px-3 sm:px-0 grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
+            <div class="flex flex-col gap-4">
+                <h4 class="text-new-indigo-500 font-semibold text-sm uppercase">Customer Spotlight</h4>
+                <h2 class="text-new-grayscale-900">Creativity is nothing but the way to solve new problems.</h2>
+                <p class="text-new-grayscale-900/50">
+                    DocuSign uses Dlex to track key metrics to improve customer experience, resulting in more
+                    conversions, onboarding completions, and paid upgrades.
+                </p>
+                <a href="#"
+                    class="font-medium py-[14px] px-8 bg-new-indigo-500 text-white rounded-lg max-w-[180px] block">Read
+                    full story</a>
+            </div>
+            <div>
+                <img src="img/video-img.png" alt="">
+            </div>
+            <div
+                class="text-center border-y border-new-grayscale-900/10 pt-[82px] mt-10 lg:mt-20 sm:col-span-2 pb-[80px]">
+                <h4 class="text-new-grayscale-900 text-center">Trusted by over 39,000 forward-thinking companies</h4>
+                <div class="flex flex-wrap items-center mt-10 justify-evenly gap-8">
+                    <img src="img/brands-1.png" class="max-w-full max-h-full" alt="">
+                    <img src="img/brands-2.png" class="max-w-full max-h-full" alt="">
+                    <img src="img/brands-3.png" class="max-w-full max-h-full" alt="">
+                    <img src="img/brands-4.png" class="max-w-full max-h-full" alt="">
+                    <img src="img/brands-5.png" class="max-w-full max-h-full" alt="">
+                    <img src="img/brands-6.png" class="max-w-full max-h-full" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Questions-->
+    <section>
+        <div class="container py-24 px-3 sm:px-0 gap-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+            <h3 class="text-new-grayscale-900 text-center sm:col-span-2 md:col-span-3">Frequently asked questions</h3>
+            <p class="text-center text-new-grayscale-900/50 sm:col-span-2 md:col-span-3">Get the best services at the
+                lowest price</p>
+
+            <div class="grid grid-flow-col auto-cols-auto gap-4">
+                <span
+                    class="text-new-indigo-500 bg-new-cyan-200 w-6 h-6 rounded-full inline-block text-center row-span-2"><i
+                        class="fa-solid fa-question"></i></span>
+                <h6 class="text-new-grayscale-900">How long do payouts take?</h6>
+                <p class="text-new-grayscale-900/50 text-sm">Once you're set up, payouts arrive in your bank account on
+                    a 2-day
+                    rolling basis. Or you can opt to
+                    receive payouts weekly or monthly.</p>
+            </div>
+            <div class="grid grid-flow-col auto-cols-auto gap-4">
+                <span
+                    class="text-new-indigo-500 bg-new-cyan-200 w-6 h-6 rounded-full inline-block text-center row-span-2"><i
+                        class="fa-solid fa-question"></i></span>
+                <h6 class="text-new-grayscale-900">How much do disputes cost?</h6>
+                <p class="text-new-grayscale-900/50 text-sm">Disputed payments (also known as chargebacks) incur a
+                    $15.00 fee. If the customer’s bank resolves the dispute in your favor, the fee is fully refunded.
+                </p>
+            </div>
+            <div class="grid grid-flow-col auto-cols-auto gap-4">
+                <span
+                    class="text-new-indigo-500 bg-new-cyan-200 w-6 h-6 rounded-full inline-block text-center row-span-2"><i
+                        class="fa-solid fa-question"></i></span>
+                <h6 class="text-new-grayscale-900">How much do disputes cost?</h6>
+                <p class="text-new-grayscale-900/50 text-sm">Disputed payments (also known as chargebacks) incur a
+                    $15.00 fee. If the customer’s bank resolves the dispute in your favor, the fee is fully refunded.
+                </p>
+            </div>
+            <div class="grid grid-flow-col auto-cols-auto gap-4">
+                <span
+                    class="text-new-indigo-500 bg-new-cyan-200 w-6 h-6 rounded-full inline-block text-center row-span-2"><i
+                        class="fa-solid fa-question"></i></span>
+                <h6 class="text-new-grayscale-900">How much do disputes cost?</h6>
+                <p class="text-new-grayscale-900/50 text-sm">Disputed payments (also known as chargebacks) incur a
+                    $15.00 fee. If the customer’s bank resolves the dispute in your favor, the fee is fully refunded.
+                </p>
+            </div>
+            <div class="grid grid-flow-col auto-cols-auto gap-4">
+                <span
+                    class="text-new-indigo-500 bg-new-cyan-200 w-6 h-6 rounded-full inline-block text-center row-span-2"><i
+                        class="fa-solid fa-question"></i></span>
+                <h6 class="text-new-grayscale-900">How long do payouts take?</h6>
+                <p class="text-new-grayscale-900/50 text-sm">Once you’re set up, payouts arrive in your bank account on
+                    a 2-day rolling basis. Or you can opt to receive payouts weekly or monthly.</p>
+            </div>
+            <div class="grid grid-flow-col auto-cols-auto gap-4">
+                <span
+                    class="text-new-indigo-500 bg-new-cyan-200 w-6 h-6 rounded-full inline-block text-center row-span-2"><i
+                        class="fa-solid fa-question"></i></span>
+                <h6 class="text-new-grayscale-900">How much do disputes cost?</h6>
+                <p class="text-new-grayscale-900/50 text-sm">Disputed payments (also known as chargebacks) incur a
+                    $15.00 fee. If the customer’s bank resolves the dispute in your favor, the fee is fully refunded.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Country-->
+    <section class="bg-new-grayscale-50">
+        <div class="container py-24 px-3 sm:px-0 relative">
+            <h2 class="text-new-grayscale-900 text-center">Trusted by developers from over 80 country</h2>
+            <p class="text-new-grayscale-900/50 text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                do amet
+                sint.</p>
+
+            <div
+                class="mt-14 flex flex-col sm:flex-row justify-between py-8 sm:px-[105px] w-full lg:w-[936px] bg-white shadow-xl mx-auto sm:absolute -bottom-24 lg:left-24">
+                <div class="text-center">
+                    <span class="text-new-indigo-500 text-4xl font-bold">100%</span>
+                    <p class="text-sm text-new-grayscale-900/50 font-medium">User satisfaction</p>
+                </div>
+                <div class="text-center">
+                    <span class="text-new-indigo-500 text-4xl font-bold">24/7</span>
+                    <p class="text-sm text-new-grayscale-900/50 font-medium">Customer support</p>
+                </div>
+                <div class="text-center">
+                    <span class="text-new-indigo-500 text-4xl font-bold">250K</span>
+                    <p class="text-sm text-new-grayscale-900/50 font-medium">Users served</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="mt-48 bg-new-grayscale-900">
+        <div class="container pt-16 px-3 sm:px-0">
+            <div class="grid grid-cols-max-auto-1 gap-6 mb-10">
+                <div class="flex flex-col gap-y-6">
+                    <img src="img/footer-logo.png" class="w-[90px] h-[36px]" alt="">
+                    <p class="text-white/50">Making the world a better place through constructing elegant hierarchies
+                    </p>
+                    <div class="space-x-4">
+                        <a href="#" class="text-white/30"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="text-white/30"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="text-white/30"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="text-white/30"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="text-white space-y-2">
+                    <h6 class="font-semibold text-white/40 uppercase text-sm">Solutions</h6>
+                    <a href="#" class="block">Marketing</a>
+                    <a href="#" class="block">Analytics</a>
+                    <a href="#" class="block">Commerce</a>
+                    <a href="#" class="block">Insights</a>
+                </div>
+                <div class="text-white space-y-2">
+                    <h6 class="font-semibold text-white/40 uppercase text-sm">Support</h6>
+                    <a href="#" class="block">Pricing</a>
+                    <a href="#" class="block">Documentation</a>
+                    <a href="#" class="block">Guides</a>
+                    <a href="#" class="block">API Status</a>
+                </div>
+                <div class="text-white space-y-2">
+                    <h6 class="font-semibold text-white/40 uppercase text-sm">Company</h6>
+                    <a href="#" class="block">About</a>
+                    <a href="#" class="block">Blog</a>
+                    <a href="#" class="block">Jobs</a>
+                    <a href="#" class="block">Press</a>
+                    <a href="#" class="block">Partners</a>
+                </div>
+                <div class="text-white space-y-2">
+                    <h6 class="font-semibold text-white/40 uppercase text-sm">Legal</h6>
+                    <a href="#" class="block">Claim</a>
+                    <a href="#" class="block">Privacy</a>
+                    <a href="#" class="block">Terms</a>
+                </div>
+            </div>
+            <div class="text-white/50 text-center py-10 border-t border-white/10">
+                © 2020 Dlex, Inc. All rights reserved
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
